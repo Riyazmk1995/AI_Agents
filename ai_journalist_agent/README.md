@@ -11,8 +11,7 @@ This Streamlit app is an AI-powered journalist agent that generates high-quality
 1. Clone the GitHub repository
 
 ```bash
-git clone https://github.com/Shubhamsaboo/awesome-llm-apps.git
-cd awesome-llm-apps/ai_agent_tutorials/ai_journalist_agent
+git clone https://github.com/Riyazmk1995/AI_Agents/ai_journalist_agent.git
 ```
 2. Install the required dependencies:
 
