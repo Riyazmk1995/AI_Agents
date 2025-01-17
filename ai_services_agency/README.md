@@ -63,8 +63,7 @@ Before anything else, Please get your OpenAI API Key here: https://platform.open
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/Shubhamsaboo/awesome-llm-apps.git
-   cd awesome-llm-apps/ai_agent_tutorials/ai_services_agency
+   git clone https://github.com/Riyazmk1995/AI_Agents/ai_services_agency.git
    ```
 
 2. **Install the dependencies**:
