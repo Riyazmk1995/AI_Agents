@@ -12,8 +12,7 @@ This Streamlit app is an AI-powered investment agent that compares the performan
 1. Clone the GitHub repository
 
 ```bash
-git clone https://github.com/Shubhamsaboo/awesome-llm-apps.git
-cd awesome-llm-apps/ai_agent_tutorials/ai_investment_agent
+git clone https://github.com/Riyazmk1995/AI_Agents/ai_investment_agent.git
 ```
 2. Install the required dependencies:
 
