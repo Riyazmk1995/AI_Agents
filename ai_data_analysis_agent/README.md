@@ -30,8 +30,7 @@ An AI data analysis Agent built using the phidata Agent framework and Openai's g
 1. **Setup Environment**
    ```bash
    # Clone the repository
-   git clone https://github.com/Shubhamsaboo/awesome-llm-apps.git
-   cd ai_agent_tutorials/ai_data_analysis_agent
+   git clone https://github.com/Riyazmk1995/AI_Agents/ai_data_analysis_agent.git
 
    # Install dependencies
    pip install -r requirements.txt
