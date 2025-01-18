@@ -81,7 +81,7 @@ def main():
 
     st.title("🏋️‍♂️ AI Health & Fitness Planner")
     st.markdown("""
-        <div style='background-color: #00008B; padding: 1rem; border-radius: 0.5rem; margin-bottom: 2rem;'>
+        <div style='background-color: #e8ae84; padding: 1rem; border-radius: 0.5rem; margin-bottom: 2rem;'>
         Get personalized dietary and fitness plans tailored to your goals and preferences.
         Our AI-powered system considers your unique profile to create the perfect plan for you.
         </div>
