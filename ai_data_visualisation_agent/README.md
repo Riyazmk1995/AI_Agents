@@ -28,8 +28,8 @@ Follow the steps below to set up and run the application:
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/Shubhamsaboo/awesome-llm-apps.git
-   cd ai_agent_tutorials/ai_data_visualisation_agent
+   git clone https://github.com/Riyazmk1995/AI_Agents.git
+   cd ai_data_visualisation_agent
    ```
 2. **Install the dependencies**
     ```bash
