@@ -33,8 +33,8 @@ Follow these steps to set up and run the application:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/Shubhamsaboo/awesome-llm-apps.git
-   cd ai_agent_tutorials/ai_game_design_team
+   git clone https://github.com/Riyazmk1995/AI_Agents.git
+   cd ai_game_design_team
    ```
 
 2. **Install Dependencies**:
