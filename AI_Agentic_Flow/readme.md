@@ -48,7 +48,6 @@ Ensure you have the following installed:
    ```sh
    pip install -r requirements.txt
    ```
-   ```
 3. Start the Streamlit frontend:
    ```sh
    streamlit run app/frontend.py
