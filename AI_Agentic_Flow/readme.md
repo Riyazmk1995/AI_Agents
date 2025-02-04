@@ -48,11 +48,8 @@ Ensure you have the following installed:
    ```sh
    pip install -r requirements.txt
    ```
-3. Run the FastAPI backend:
-   ```sh
-   uvicorn app.main:app --reload
    ```
-4. Start the Streamlit frontend:
+3. Start the Streamlit frontend:
    ```sh
    streamlit run app/frontend.py
    ```
