@@ -1,7 +1,7 @@
 # AI AgentFlow
 
 ## Overview
-AI AgentFlow is a modular system of AI agents designed to perform specific tasks efficiently. The system features a Manager Agent that oversees task assignment, selects the most suitable agent(s), and provides comprehensive responses. It integrates modern open-source frameworks, a backend API, and a user-friendly frontend interface built with Streamlit.
+AI AgentFlow is a modular system of AI agents designed to perform specific tasks efficiently. The system features a Manager Agent that oversees task assignments, selects the most suitable agent(s), and provides comprehensive responses. It integrates modern open-source frameworks, a backend API, and a user-friendly frontend interface built with Streamlit.
 
 ## Features
 - **Modular AI Agent System**: Each agent performs a distinct task.
@@ -15,13 +15,13 @@ AI AgentFlow is a modular system of AI agents designed to perform specific tasks
 
 ## Architecture
 ### Agents
-1. **Document Summarizer & Keyword Extractor** (Agent 1)
+1. **Agent 1**: **Document Summarizer & Keyword Extractor**
    - Uses LangChain & Gemini API for summarization.
-2. **Query Responder** (Agent 2)
+2.  **Agent 2**:**Query Responder**
    - Uses LangChain & Gemini API to answer document-based queries.
-3. **Internet-Connected Agent** (Agent 3)
+3.  **Agent 3**:**Internet-Connected Agent**
    - Fetches real-time data using SerpAPI.
-4. **Manager Agent** (Agent 4)
+4.  **Agent 4**:**Manager Agent**
    - Determines the appropriate agent(s) for a given user query.
 
 ## Tech Stack
@@ -67,7 +67,7 @@ docker-compose up --build
 4. The response is displayed on the UI.
 
 ## Workflow
-1. **User Input**: User provides a query and/or documents via Streamlit UI.
+1. **User Input**: The user provides a query and/or documents via Streamlit UI.
 2. **Manager Agent Analysis**: Determines the best-suited agent(s) for the task.
 3. **Agent Execution**:
    - **Agent 1**: Summarizes documents & extracts keywords.
@@ -76,15 +76,11 @@ docker-compose up --build
 4. **Response Consolidation**: Manager Agent compiles the results.
 5. **Output to User**: Response displayed on the Streamlit frontend.
 
-
+![image](https://github.com/user-attachments/assets/10715a51-16c5-44da-b938-96650baba339)
 
 ## Contributing
 Contributions are welcome! Feel free to submit a pull request or raise an issue.
 
-## License
-This project is licensed under the MIT License.
-
----
 
 **Author**: Riyaz Khorasi 
 **Email**: riyazkhorasi@gmail.com
