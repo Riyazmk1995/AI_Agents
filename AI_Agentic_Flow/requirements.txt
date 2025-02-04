@@ -1,0 +1,9 @@
+fastapi
+streamlit
+langchain
+requests
+python-dotenv
+google-generativeai
+google-search-results
+langchain_google_genai
+langchain-community

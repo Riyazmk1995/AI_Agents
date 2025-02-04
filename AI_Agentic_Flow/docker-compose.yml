@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  ai_agents_system:
+    build: .
+    ports:
+      - "8000:8000"  # FastAPI backend
+      - "8501:8501"  # Streamlit frontend
+    environment:
+      - GEMINI_API_KEY=${GEMINI_API_KEY}
+      - SERPAPI_API_KEY=${SERPAPI_API_KEY}
+    volumes:
+      - .:/app  # Mount the current directory to /app in the container
+    command: >
+      sh -c "uvicorn app:app --host 0.0.0.0 --port 8000 &
+             streamlit run app.py --server.port 8501 --server.address 0.0.0.0"
